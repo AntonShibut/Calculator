@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/4949943dec.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="calculator__body">
+                <div class="calculator__display"> <form name = form> <input type="text" name= textView readonly></form></div>
+                <div class="calculator__keyboard">
+                    <div class="calculator__button" onclick="clean('')">
+                    <p><b>C</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="clean('')">
+                    <p><b>CE</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="back('')">
+                    <p><b>&larr;</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="insert('+')">
+                    <p><b>+</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="insert('7')">
+                    <p><b>7</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="insert('8')">
+                    <p><b>8</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="insert('9')">
+                    <p><b>9</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="insert('-')">
+                    <p><b>-</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="insert('4')">
+                    <p><b>4</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="insert('5')">
+                    <p><b>5</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="insert('6')">
+                    <p><b>6</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="insert('*')">
+                    <p><b>&times;</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="insert('1')">
+                    <p><b>1</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="insert('2')">
+                    <p><b>2</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="insert('3')">
+                    <p><b>3</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="insert('/')">
+                    <p><b>&divide;</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="insert('0')">
+                    <p><b>0</b></p>
+                    </div>
+                    <div class="calculator__button" onclick="insert('.')">
+                    <p><b>.</b></p>
+                    </div>
+                    <div class="calculator__button calculator__button_result" onclick="result ('')">
+                    <p><b>=</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="calculator__history"></div>
+        </div>
+    </div>
+</body>
+</html>
